@@ -4,8 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\toolbar",
-    "\\src\\assets"
+    "\\src\\assets",
+    "\\src\\assets\\images"
   ],
-  "SelectedNode": "\\src\\app\\app.component.ts",
+  "SelectedNode": "\\src\\assets\\images",
   "PreviewInSolutionExplorer": false
 }
