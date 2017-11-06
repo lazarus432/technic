@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  <span>Technic</span>
+  <span class="example-space"></span>
+  <button mat-button [matMenuTriggerFor]="toolbarContact">Contact</button>
+  <button mat-button [matMenuTriggerFor]="toolbarProject">Personal Projects</button>
+  <button mat-button [matMenuTriggerFor]="toolbarMenu">Menu</button>
+</mat-toolbar>
+
+<mat-menu #toolbarMenu="matMenu">
+  <button mat-menu-item>Settings</button>
+  <button mat-menu-item>Help</button>
+</mat-menu>
+<mat-menu #toolbarProject="matMenu">
+  <button mat-menu-item>Store Items Catalog</button>
+  <button mat-menu-item>San Francisco Attractions</button>
+  <button mat-menu-item>Linux Config</button>
+</mat-menu>
+<mat-menu #toolbarContact="matMenu">
+  <button mat-menu-item>Contact Us</button>
+</mat-menu>
+
